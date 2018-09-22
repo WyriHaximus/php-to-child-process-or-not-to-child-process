@@ -1,5 +1,21 @@
 # To child process or not to child process
+
 Bare function using annotations to decide if the given function should be run in a child process
+
+[![Build Status](https://travis-ci.com/WyriHaximus/php-to-child-process-or-not-to-child-process.svg?branch=master)](https://travis-ci.com/WyriHaximus/php-to-child-process-or-not-to-child-process)
+[![Latest Stable Version](https://poser.pugx.org/WyriHaximus/to-child-process-or-not-to-child-process/v/stable.png)](https://packagist.org/packages/WyriHaximus/to-child-process-or-not-to-child-process)
+[![Total Downloads](https://poser.pugx.org/WyriHaximus/to-child-process-or-not-to-child-process/downloads.png)](https://packagist.org/packages/WyriHaximus/to-child-process-or-not-to-child-process)
+[![Code Coverage](https://scrutinizer-ci.com/g/WyriHaximus/php-to-child-process-or-not-to-child-process/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/WyriHaximus/php-to-child-process-or-not-to-child-process/?branch=master)
+[![License](https://poser.pugx.org/WyriHaximus/to-child-process-or-not-to-child-process/license.png)](https://packagist.org/packages/WyriHaximus/to-child-process-or-not-to-child-process)
+[![PHP 7 ready](http://php7ready.timesplinter.ch/WyriHaximus/reactphp-http-middleware-clear-body/badge.svg)](https://travis-ci.org/WyriHaximus/reactphp-http-middleware-clear-body)
+
+# Install
+
+To install via [Composer](http://getcomposer.org/), use the command below, it will automatically detect the latest version and bind it with `^`.
+
+```
+composer require wyrihaximus/to-child-process-or-not-to-child-process
+```
 
 # License
 
