@@ -9,7 +9,7 @@ final class ToChildProcessMethod
     /**
      * @ChildProcess()
      */
-    public function method()
+    public function method(): void
     {
     }
 }

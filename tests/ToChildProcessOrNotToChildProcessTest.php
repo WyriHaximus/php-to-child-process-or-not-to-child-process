@@ -5,6 +5,9 @@ namespace WyriHaximus\Tests;
 use ApiClients\Tools\TestUtilities\TestCase;
 use function WyriHaximus\toChildProcessOrNotToChildProcess;
 
+/**
+ * @internal
+ */
 final class ToChildProcessOrNotToChildProcessTest extends TestCase
 {
     public function provideTestsAndExpectedResults(): iterable
@@ -23,7 +26,7 @@ final class ToChildProcessOrNotToChildProcessTest extends TestCase
     /**
      * @dataProvider provideTestsAndExpectedResults
      */
-    public function tests(string $callable, bool $expectedResult)
+    public function tests(string $callable, bool $expectedResult): void
     {
         self::assertSame($expectedResult, toChildProcessOrNotToChildProcess($callable));
     }
