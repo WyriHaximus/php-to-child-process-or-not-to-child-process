@@ -4,7 +4,7 @@ namespace WyriHaximus\Tests;
 
 final class ToNotChildProcessMethod
 {
-    public function method()
+    public function method(): void
     {
     }
 }
